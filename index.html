@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h2>Calcula el precio de un producto</h2>
+    <hr />
+    <div id="div-precio">
+      <label for="precio">Precio base</label>
+      <input
+        type="number"
+        name=""
+        id="precio"
+        min="1"
+        placeholder="Precio sin iva"
+      />
+    </div>
+    <div id="div-iva">
+      <label for="iva">Iva </label>
+      <input
+        type="number"
+        name=""
+        id="iva"
+        min="1"
+        placeholder="Iva a aplicar"
+      />
+    </div>
+
+    <button id="btn">Calcular</button>
+
+    <div>
+      <label for="total">Precio total</label>
+      <input type="text" name="" id="total" disabled />
+    </div>
+    <div>
+      <label for="impuestos">Impuestos</label>
+      <input type="text" name="" id="impuestos" disabled />
+    </div>
+  </body>
+  <script src="index.js"></script>
+</html>
